@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trendyol Clone</title>
+</head>
+<body>
+    <!--Main Container-->
+    <div class="flex flex-col items-center justify-center min-x-xs ">
+        <!--Header Container-->
+        <div class="border-b border-gray-200 w-full mx-auto h-30">
+            <div class="items-center justify-between x-10 md:px-40 py-2">
+                <!--Left Top Menu-->
+                <div class="flex flex-row items-end justify-end text-xs text-gray-300 space-x-3 ">
+                    <a href="#" class="hover:text-gray-500">İndirim Kuponlarım</a>
+                    <a href="#" class="hover:text-gray-500">Trendyol'da Satış Yap</a>
+                    <a href="#" class="hover:text-gray-500">Yardım & Destek</a>
+                </div>
+                <!--Middle Top-->
+                <div class="flex flex-row items-center justify-between">
+                <button href="index.html"><img src="img/ty-logo.png" class="m-5 px-0 h-8"></button>
+                <input type="text" class="relative rounded-md rounded-b-none  outline-orange-500 border  bg-slate-100 w-6/12 h-10" placeholder="Aradığınız ürün,kategori veya markayı yazın">
+                <img src="img/search-icon.png" class="absolute h-10 mx-96 ml-96 pl-48 md:pl-48 xl:pl-96"></img> <!--search button alignment problem-->
+                <div class="flex flex-row space-x-5 ">
+                <button class="flex flex-row text-xs font-semibold text-slate-700 hover:text-orange-500 "><img src="img/login-icon.png" class="-m-1 h-5">Giriş Yap</button>
+                <button class="flex flex-row text-xs font-semibold text-slate-700 hover:text-orange-500 "><img src="img/fav-icon.png" class="-m-1  px-2 h-5">Favorilerim</a>
+                <button class="flex flex-row text-xs font-semibold text-slate-700 hover:text-orange-500 "><img src="img/retail-icon.png" class="-m-1 px-1 h-5">Sepetim</button>
+                </div>
+                </div>
+                <!--Bottom Menu-->
+                <div class="flex flex-row items-center justify-between space-x-3 text-xs font-semibold mt-3">
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">KADIN</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">ERKEK</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">ANNE & ÇOCUK</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">EV & MOBİLYA</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">SUPERMARKET</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">KOZMETİK</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">AYAKKABI & ÇANTA</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">SAAT & ÇANTA</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">ELEKTRONİK</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">EV & MOBİLYA</a>
+                    <a href="#" class="hover:border-b-orange-500 hover:border-b-2 hover:text-orange-500">SPOR & OUTDOOR</a>
+                </div>
+            </div>
+        </div>
+            <!--Slider Rounded Menu-->
+            <div class="flex flex-row items-center justify-between space-x-5 md:px-40 py-8">
+              <!--left button for slider effect-->
+              <div class="flex flex-col items-center hover:text-orange-500">
+                <button class="flex flex-row"><img src="img/left.png" class="h-8 opacity-20 hover:opacity-75 "></button>
+            </div>
+            <!--ad buttons-->
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/Top.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Sana Özel</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/coksatanlar.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Sen De Al!</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/gorsel.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Kurumsal</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/eglence.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Kodlar & Hizmetler</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/xiaomi13.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Xiaomi</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/trendyolmilla.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">TrendyolMilla</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/pullbear.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Pull & Bear</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/Adidas.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Adidas</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/stradivarius.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Stradivarius</p>
+                </div>
+                <div class="flex flex-col items-center hover:text-orange-500">
+                    <button class="flex flex-row"><img src="img/Bershka.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                    <p class="text-xs font-semibold p-2">Bershka</p>
+                </div>   
+                <div class="flex flex-col items-center hover:text-orange-500">
+                  <button class="flex flex-row"><img src="img/divlin.png" class="max-w-7xl h-20 border-2 rounded-full hover:border-orange-300"></button>
+                  <p class="text-xs font-semibold p-2">Divlin</p>
+              </div>  
+              <!--right button for slider effect-->
+              <div class="flex flex-col items-center hover:text-orange-500">
+                <button class="flex flex-row"><img src="img/next.png" class="h-8 opacity-20 hover:opacity-75"></button>
+            </div>
+            </div>
+            <!--Button Container-->
+            <div class="grid gap-10 mt-10 ml-24 mr-24 md:grid-cols-3">
+                <!-- Image 1 -->
+                <div class="relative ">
+                  <button><img src="img/SepeteEnCOkEklenenler.png" alt="" class="w-96 rounded-lg" /></button>
+                
+                </div>
+                  <!-- Image 2 -->
+                  <div class="relative">
+                   <button><img src="img/EnCOkONeCIkanlar.png" alt="" class="w-96 rounded-lg" /></button>
+                    
+                  </div>
+                    <!-- Image 3 -->
+                <div class="relative ">
+                   <button><img src="img/FlasINdirimler.png" alt="" class="w-96 rounded-lg" />  </button>  
+                </div>
+            </div>
+            <!-- Gallery Container -->
+            <div class="grid gap-10 mt-10 ml-24 mr-24 md:grid-cols-3">
+                <!-- Image 1 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                  <img src="img/en-begenilenler.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                  <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                    <div class="flex justify-between w-full">
+                      <div class="font-semibold">
+                        <p class="text-sm">Bot, Çizme, Sneaker ve Ça...</p>
+                      </div>
+                      <div class="group flex items-center">
+                        <p class=" text-sm font-semibold invisible group-hover:visible ">Alışverişe Başla </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- Image 2 -->
+                  <div class="relative group overflow-hidden rounded-lg">
+                    <img src="img/buyuk-kis-indirimi.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                    <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                      <div class="flex justify-between w-full">
+                        <div class="font-semibold">
+                          <p class="text-sm">Dev Markalarda Büyük Kış...</p>
+                        </div>
+                        <div class="group flex items-center">
+                          <p class="text-sm font-semibold invisible group-hover:visible">Alışverişe Başla </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- Image 3 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                    <img src="img/yeni-sezon-firsatlari.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                    <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                      <div class="flex justify-between w-full">
+                        <div class="font-semibold">
+                          <p class="text-sm">Trendyol Colletion - Yeni...</p>
+                        </div>
+                        <div class="group flex items-center">
+                          <p class="text-sm font-semibold invisible group-hover:visible">Alışverişe Başla </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Image 4 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                  <img src="img/pullbear-afis.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                  <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                    <div class="flex justify-between w-full">
+                      <div class="font-semibold">
+                        <p class="text-sm">Pull&Bear Büyük Kış İndir...</p>
+                      </div>
+                      <div class="group flex items-center">
+                        <p class=" text-sm font-semibold invisible group-hover:visible ">Alışverişe Başla </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- Image 5 -->
+                  <div class="relative group overflow-hidden rounded-lg">
+                    <img src="img/mobilya.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                    <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                      <div class="flex justify-between w-full">
+                        <div class="font-semibold">
+                          <p class="text-sm">Mobilyada En Favori Ürünler</p>
+                        </div>
+                        <div class="group flex items-center">
+                          <p class="text-sm font-semibold invisible group-hover:visible">Alışverişe Başla </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Image 6 -->
+                <div class="relative group overflow-hidden rounded-lg">
+                    <img src="img/mango.png" alt="" class="hover:scale-105  duration-500 w-96 rounded-lg" />
+                    <div class="absolute bottom-0 left-0 right-0 p-2  text-white bg-black group-hover:bg-orange-500">
+                      <div class="flex justify-between w-full">
+                        <div class="font-semibold">
+                          <p class="text-sm">Mango Kadın&Erkek Tek...</p>
+                        </div>
+                        <div class="group flex items-center">
+                          <p class="text-sm font-semibold invisible group-hover:visible">Alışverişe Başla </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <!--Gallery Slider Container-->
+   <div class="flex flex-col items-center justify-between mt-10 mb-2 rounded-lg border-2 border-slate-200 bg-gray-100 ">
+      <div class="flex flex-row space-x-96 mt-3"> <!--Alignment problem / gap error-->
+        <h2 class="font-semibold text-xl">Öne Çıkanlar</h2>
+        <p class="underline text-sm font-semibold ">Tüm Ürünler!</p>
+      </div>
+    <!--Image Cards-->
+    
+      <div class="flex flex-row space-x-5 bg-gray-100 rounded-lg p-5 "> 
+            <div class="rounded-lg border-2 bg-white">
+                <div class="flex-col mt-3 p-2">
+                    <button>
+                    <img src="img/sprey.png" class="w-24 mx-10 ">
+                    <p class="text-sm mt-2 p-2"><strong>Avon</strong> Incandessence 100ml <br/> Kadın Vucüt Spreyi... </p>
+                    <p class="text-sm font-bold text-orange-500 p-2">40,50 TL</p>
+                    </button>
+                </div>
+            </div>
+            <div class="rounded-lg border-2 bg-white">
+                <div class="flex-col mt-3 p-2 ">
+                    <button>
+                    <img src="img/fircalar.png" class="w-24 mx-14">
+                    <p class="text-sm mt-2 p-2"><strong>MUJGAN</strong> Fix Özel Kutulu 13'lü <br/> Fırça Seti </p>
+                    <p class="text-sm font-bold text-orange-500 p-2">99,99 TL</p>
+                    </button>
+                </div>
+            </div>
+            <div class="rounded-lg border-2 bg-white">
+                <div class="flex-col mt-3 p-2 ">
+                  <button>
+                    <img src="img/body-ist.png" class="w-24 mx-14">
+                    <p class="text-sm mt-2 p-2"><strong>Eda Taşpınar</strong> Wild Things <br/> Body Mist 200ml. Eda-00011  </p>
+                    <p class="text-sm font-bold text-orange-500 p-2">57 TL</p>
+                  </button>
+                </div>
+            </div>
+            <div class="rounded-lg border-2 bg-white">
+                <div class="flex-col mt-3 p-2 ">
+                    <button>
+                    <img src="img/taki.png" class="w-24 mx-14">
+                    <p class="text-sm mt-2 p-2"><strong>SBL AKSESUAR</strong> Kelebek Çelik <br/> Kolye</p>
+                    <p class="text-sm font-bold text-orange-500 p-2">59 TL</p>
+                    </button>
+                </div>
+            </div>
+            <div class="rounded-lg border-2 bg-white">
+                <div class="flex-col mt-3 p-2 ">
+                    <button>
+                    <img src="img/clear.png" class="w-24 mx-14">
+                    <p class="text-sm mt-2 p-2"><strong>Clear</strong> Women Kepeğe Karşı <br/>Etkili Şampuan Yumuşak...</p>
+                    <p class="text-sm font-bold text-orange-500 p-2">105,52 TL</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
